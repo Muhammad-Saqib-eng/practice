@@ -12,6 +12,10 @@ int main() {
 	for (int i = 0; i < 5; i++) {
 		cout << arr[i];
 	}
+	char b;
+	cout << "Enter a character";
+	cin >> b;
+	cout << "The char is " << b;
 	
 	return 0;
 }
